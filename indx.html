@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="demo">
+        <div class="  mx-auto  p-4 text-center">
+          <div class="Bookmarker">  <h1 class="mt-5  ">Bookmarker </h1></div>
+
+        <p class="text-white py-5 ali">.................................................................................................................................................</p>
+            <p class="mt-5 text-white"><i class="fa-solid fa-bookmark "></i> Bookmark your favorite sites <i
+                    class="fa-solid fa-bookmark"></i> </p>
+        </div>
+        <div class="w-75  mx-auto mt-5 p-4">
+            <label for="SiteName"> <i class="fa-solid fa-book-bookmark me-2"></i>Site Name :</label>
+            <input type="text" id="SiteName" class="form-control mb-3 mt-2" placeholder="Bookmarker Name">
+            <label for="SiteURL"> <i class="fa-solid fa-link "></i> Site URL :</label>
+            <input type="text" id="SiteURL " class="form-control mb-3 mt-2" placeholder="Bookmarker URL">
+            <div class=" d-flex justify-content-center align-items-center ">
+                <button id="btnUpdete" class="btn btn-outline-dark mt-3" onclick="SiteName1()">submit </button>
+            </div>
+            <p class="text-dark">...............................................................................................................................................</p>
+        </div>
+        <div class="table-responsive m-auto w-75">
+            <table class="table table-striped table-borderless text-center ">
+                <thead class="table-striped ">
+                    <tr>
+                        <th scope="col">Index</th>
+                        <th scope="col">Website Name</th>
+                        <th scope="col"> Visit</th>
+                        <th scope="col"> Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                
+                </tbody>
+            </table>
+
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/style2.js"></script>
+        </div>
+    </div>
+</body>
